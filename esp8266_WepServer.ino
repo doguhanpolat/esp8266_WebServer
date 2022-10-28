@@ -8,8 +8,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-const char* ssid = "REPLACE_WITH_YOUR_SSID"; 
-const char* password = "REPLACE_WITH_YOUR_PASSWORD";  
+const char* ssid = "Polat2"; 
+const char* password = "/-polat9562/-";  
 
 ESP8266WebServer server(80); // Set web server port number to 80.
 
@@ -155,6 +155,7 @@ String SendHTML(uint8_t led1stat,uint8_t led2stat,uint8_t led3stat,uint8_t led4s
   ptr +="p {font-size: 16px;color:black;margin-bottom: 10px;}\n";
   
   ptr +="p1 {font-size: 28px;color: black;}\n";
+  ptr +="p2 {font-size: 12px;color: #3f3f3f;}\n";
   
   ptr +="</style>\n";
   ptr +="</head>\n";
@@ -184,14 +185,12 @@ String SendHTML(uint8_t led1stat,uint8_t led2stat,uint8_t led3stat,uint8_t led4s
 
   //social media Logo
 
-  ptr +="<br/><p1>Social Media</p1>";
-  
+  ptr +="<br/><br/><p1>Social Media</p1>";
   ptr += "<a target=”github” a href='https://github.com/doguhanpolat'>";
   ptr += "<br/><br/><img src= 'https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png' Z\" width=\"90\" height=\"45\" alt=\"logo\\\">\n";
-  
   ptr += "<a target=”github” a href='https://www.linkedin.com/in/doguhan-polat/'>";
-  ptr += "<img src= 'https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Symbol.png' Z\" width=\"85\" height=\"45\" alt=\"logo\\\">\n";
-  
+  ptr += "<img src= 'https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Symbol.png' Z\" width=\"85\" height=\"45\" alt=\"logo\\\"></a>\n";
+  ptr +="<br/><br/><p2>Made by Doguhan POLAT</p2>\n";
   ptr +="</div>\n";
   ptr +="</body>\n";
   ptr +="</html>\n";
