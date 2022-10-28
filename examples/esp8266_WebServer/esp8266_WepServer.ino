@@ -1,8 +1,9 @@
-/*********
-  Doğuhan  POLAT
-  You can find project details at https://github.com/doguhanpolat 
+/*
+ * Created by Doğuhan POLAT
+ * 
+ * Github: https://github.com/doguhanpolat
+*/
 
-*********/
 
 //Load Wi-Fi library
 #include <ESP8266WiFi.h>
@@ -190,7 +191,7 @@ String SendHTML(uint8_t led1stat,uint8_t led2stat,uint8_t led3stat,uint8_t led4s
   ptr += "<br/><br/><img src= 'https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png' Z\" width=\"90\" height=\"45\" alt=\"logo\\\">\n";
   ptr += "<a target=”github” a href='https://www.linkedin.com/in/doguhan-polat/'>";
   ptr += "<img src= 'https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Symbol.png' Z\" width=\"85\" height=\"45\" alt=\"logo\\\"></a>\n";
-  ptr +="<br/><br/><p2>Made by Doguhan POLAT</p2>\n";
+  ptr +="<br/><br/><p2>Copyright (c) 2020 Doguhan POLAT</p2>\n";
   ptr +="</div>\n";
   ptr +="</body>\n";
   ptr +="</html>\n";
