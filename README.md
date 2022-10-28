@@ -101,10 +101,10 @@
     
 ## Accessing the Web Server
 >Open your browser, type the ESP IP address, and you’ll see the following page. This page is sent by the ESP8266 when you make a request on the ESP IP address.
-<img src="https://user-images.githubusercontent.com/109466846/198069109-dcc2aacc-734b-4551-a8d0-f457ce6bcf63.png" width="600" height="325" />
+<img src="https://user-images.githubusercontent.com/109466846/198544867-6b7e2a91-abfc-48e6-a23e-b4fd0b639886.png" width="600" height="325" />
 
 ## Mobile view
-<img src="https://user-images.githubusercontent.com/109466846/198070150-ecbeb0a2-82f0-402a-b662-3680ba0be5c3.png" width="225" height="450" />
+<img src="https://user-images.githubusercontent.com/109466846/198545875-edf8de3b-8260-4879-a033-714e23194138.png" width="225" height="450" />
 
 
 
